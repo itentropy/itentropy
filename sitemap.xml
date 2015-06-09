@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://blog.liuyangbin.cn/tags/index.html</loc>
+    <lastmod>2015-06-09T07:58:13.555Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.liuyangbin.cn/categories/index.html</loc>
+    <lastmod>2015-06-09T07:57:44.444Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.liuyangbin.cn/about/index.html</loc>
+    <lastmod>2015-06-09T07:57:11.056Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.liuyangbin.cn/404.html</loc>
+    <lastmod>2015-06-09T07:56:28.979Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.liuyangbin.cn/2015/05/30/hello-world/</loc>
+    <lastmod>2015-05-30T02:53:39.203Z</lastmod>
+  </url>
+  
+</urlset>
