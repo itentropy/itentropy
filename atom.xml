@@ -5,7 +5,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog.liuyangbin.cn//"/>
-  <updated>2015-06-15T05:47:53.655Z</updated>
+  <updated>2015-06-16T15:55:39.001Z</updated>
   <id>http://blog.liuyangbin.cn//</id>
   
   <author>
@@ -16,13 +16,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[pptp]]></title>
+    <link href="http://blog.liuyangbin.cn/2015/06/16/pptp/"/>
+    <id>http://blog.liuyangbin.cn/2015/06/16/pptp/</id>
+    <published>2015-06-16T15:52:41.000Z</published>
+    <updated>2015-06-16T15:55:39.001Z</updated>
+    <content type="html"><![CDATA[<p>The root cause was that 2 required netfilter kernel modules are not loaded during boot.<br>nf_conntrack_pptp<br>nf_conntrack_proto_gre<br>Solution: load the nf_conntrack_pptp module, the latter is its dependency and will be loaded automatically.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo modprobe nf_conntrack_pptp</span><br></pre></td></tr></table></figure></p>
+<p>Reference<br>[<a href="http://pptpclient.sourceforge.net/howto-diagnosis.phtml#lcp_timeout" target="_blank" rel="external">http://pptpclient.sourceforge.net/howto-diagnosis.phtml#lcp_timeout</a>]<br>[<a href="http://ubuntuforums.org/showthread.php?t=2182790" target="_blank" rel="external">http://ubuntuforums.org/showthread.php?t=2182790</a>]</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>The root cause was that 2 required netfilter kernel modules are not loaded during boot.<br>nf_conntrack_pptp<br>nf_conntrack_proto_gre<br]]>
+    </summary>
+    
+      <category term="619" scheme="http://blog.liuyangbin.cn/tags/619/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[joke]]></title>
     <link href="http://blog.liuyangbin.cn/2015/06/15/joke/"/>
     <id>http://blog.liuyangbin.cn/2015/06/15/joke/</id>
     <published>2015-06-15T05:28:55.000Z</published>
-    <updated>2015-06-15T05:47:53.655Z</updated>
+    <updated>2015-06-16T12:19:42.035Z</updated>
     <content type="html"><![CDATA[<p>1.鲁智深散步的时候遇到史进，便上前打招呼:“史，吃了嘛？”史进怒飞一脚鲁智深:“你才吃屎！！”鲁智深站起来拍拍土，一脸疑惑:“史进啊，你怎么了？”史进倒退数十步，助跑着怒吼道:“这可是你让我使劲的啊！！！！” </p>
-<p>2.上课的时候老师让我同桌站起来回答问题，他站起来说：老师。。。我不会。老师：你能不能像个男子汗一样。结果这货来了句：这道题老子不会！ </p>
+<p>2.上课的时候老师让我同桌站起来回答问题，他站起来说：老师。。。我不会。老师：你能不能像个男子汉一样。结果这货来了句：这道题老子不会！ </p>
+<p>3.一女孩问一小明，喜欢什么样的女孩，给你介绍个！小明说:大波浪的长头发的！女孩问就这一个要求啊？小明说，不，这是三个要求！！！！</p>
+<p>4.在一节生物课上<br>  老师：狼和狗杂交生出来的叫狼狗，那么老虎和狮子杂交出来的是什么？<br>  小明：叫老狮<br>  老师：滚…</p>
+<p>5.大师我最近那个老是不行，老婆又如狼似虎的，我不想被她嘲笑，你能帮帮我么？ 大师擦了一下口水:我真的可以吗？</p>
+<p>6.布丁先生去小保健，谈好200快钱半小时！聊聊发现竟然是老乡！高兴又聊了会家乡！她低头看表说:大哥都过去25分钟了还弄不弄了？布丁得意的笑:别急老妹儿最后2分钟让你知道我的厉害！</p>
+<p>7.警局里最漂亮的女警有了男朋友，一直暗恋她的刑警小雷看到自己的女神被别人抱在怀中，心里很不是滋味，一连郁闷了好几天。同事们看他脸色不对，便问他怎么回事，小雷垂头丧气地说：“唉……局花被别人抱了。”</p>
+<p>8.老王喜欢喝酒，酒后还喜欢唱歌，一天隔壁邻居的小孩办满月酒邀请了老王，酒后老王嚷嚷要唱歌，大家都知道老王有这爱好就允许了，接下来老王开口大唱∶“我种下一颗种子。终于长出了果实，今天是个伟大日子。。。唱到这邻居就上来对老王拳打脚踢。。。</p>
+<p>9.男：昆？<br>  女：帘<br>  男：哦？<br>  女：否</p>
+<p>10.办公室的鱼缸里养了几只透明的小虾，领导带着眼镜看半天，问我养的什么。我说：“虾啊！”领导一愣，走了。。。我也楞了，赶紧大声地解释：“虾啊领导！领导虾啊！领导真是虾！！是真虾啊！！！“后来。。。我第二天就没去上班了！</p>
+<p>11.我一朋友！口吃比较严重！此为背景！<br>一天去银行“你……你好，我…我…取……取………取钱！”工作人员问了一句“你卡带了麽？”他一听不乐意了！“你…你…他妈……才卡…卡…卡…卡带了！我只是口…口…口吃！”</p>
+<p>12.我一哥们去相亲、<br>女：我不会做饭、不会拖地、很懒每天要睡到中午十二点、有小脾气……你愿意和我结婚吗？<br>然后我哥们说了一句让我终身难忘的话：你经得住揍吗？</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>1.鲁智深散步的时候遇到史进，便上前打招呼:“史，吃了嘛？”史进怒飞一脚鲁智深:“你才吃屎！！”鲁智深站起来拍拍土，一脸疑惑:“史进啊，你怎么了？”史进倒退数十步，助跑着怒吼道:“这可是你让我使劲的啊！！！！” </p>

@@ -3,13 +3,15 @@
 <head>
   <meta charset="utf-8">
   
-  <title>彙整：2015/6 | ITEntropy</title>
+  <title>pptp | ITEntropy</title>
   <meta name="author" content="yb Liu">
+  
+  <meta name="description" content="The root cause was that 2 required netfilter kernel modules are not loaded during boot.nf_conntrack_pptpnf_conntrack_proto_greSolution: load the nf_co">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+  <meta property="og:title" content="pptp"/>
   <meta property="og:site_name" content="ITEntropy"/>
 
   
@@ -84,141 +86,101 @@
   	<div class="content">
     	 
 
-<!-- title -->
-<div class="page-header">
-  <h1 class="archive-title">2015/6</h1>
-</div>
 
-<div class="row page">
-  <!-- cols -->
-  
-  <div class="col-md-9">
+	
+		<div class="page-header">		
+			<h1> pptp</h1>
+		</div>		
 	
 
-	  <div class="archive">
-		
-		
-		
-			
-			
-			<h4 class="archive-ul" data-toggle="collapse" data-target="#2015">2015<b class="caret"></b></h4>
-			<ul id="2015" class="collapse in">
-			
-		
-		<li class="listing-item">
-		<span class="date_class"> 2015-06-16 </span> &raquo;
-		
-		   <span class="title"><a href="/2015/06/16/pptp/" >pptp</a></span>
-		
-		</li>			
-		
-		
-		
-		<li class="listing-item">
-		<span class="date_class"> 2015-06-15 </span> &raquo;
-		
-		   <span class="title"><a href="/2015/06/15/joke/" >joke</a></span>
-		
-		</li>			
-		
-		
-		
-		<li class="listing-item">
-		<span class="date_class"> 2015-06-13 </span> &raquo;
-		
-		   <span class="title"><a href="/2015/06/13/y-spark/" >y-spark</a></span>
-		
-		</li>			
-		
-		
-		
-		<li class="listing-item">
-		<span class="date_class"> 2015-05-30 </span> &raquo;
-		
-		   <span class="title"><a href="/2015/05/30/hello-world/" >Hello World</a></span>
-		
-		</li>			
-		
-		</ul>
-		</div>
-
-</div> <!-- col-md-9/col-md-12 -->
 
 
-<div class="col-md-3">
-	<div id="sidebar">
+<div class="row post">
+	<!-- cols -->
 	
-			<div class="form-group has-success has-feedback">
-  <form action="//google.com/search" method="get" accept-charset="utf-8" >
-    <input type="search" name="q" results="0" placeholder="搜尋" class="form-control">
-    <input type="hidden" name="q" value="site:blog.liuyangbin.cn">	
-  </form>
-</div>
+	<div class="col-md-9">
+	
 
-		
 			
-		
-			
-	<div class="widget">
-		<h4>標籤雲</h4>
-		<ul class="tag_box inline list-unstyled">		
-		
-			<li><a href="/tags/619/">619<span>1</span></a></li>
-		
-			<li><a href="/tags/big-data-spark/">big data spark<span>1</span></a></li>
-		
-			<li><a href="/tags/lol/">lol<span>1</span></a></li>
-		
-		 
-		</ul>
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p>The root cause was that 2 required netfilter kernel modules are not loaded during boot.<br>nf_conntrack_pptp<br>nf_conntrack_proto_gre<br>Solution: load the nf_conntrack_pptp module, the latter is its dependency and will be loaded automatically.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo modprobe nf_conntrack_pptp</span><br></pre></td></tr></table></figure></p>
+<p>Reference<br>[<a href="http://pptpclient.sourceforge.net/howto-diagnosis.phtml#lcp_timeout" target="_blank" rel="external">http://pptpclient.sourceforge.net/howto-diagnosis.phtml#lcp_timeout</a>]<br>[<a href="http://ubuntuforums.org/showthread.php?t=2182790" target="_blank" rel="external">http://ubuntuforums.org/showthread.php?t=2182790</a>]</p>
+	  
 	</div>
 
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+		
+          <li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i>上一頁</a></li>
+        
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
 
 		
-			
-<div class="widget">
-  <h4>最新文章</h4>
-  <ul class="entry list-unstyled">
-    
-      <li>
-        <a href="/2015/06/16/pptp/" ><i class="fa fa-file-o"></i>pptp...</a>
-      </li>
-    
-      <li>
-        <a href="/2015/06/15/joke/" ><i class="fa fa-file-o"></i>joke...</a>
-      </li>
-    
-      <li>
-        <a href="/2015/06/13/y-spark/" ><i class="fa fa-file-o"></i>y-spark...</a>
-      </li>
-    
-      <li>
-        <a href="/2015/05/30/hello-world/" ><i class="fa fa-file-o"></i>Hello World...</a>
-      </li>
-    
-  </ul>
+		   <li class="next"><a href="/2015/06/15/joke/" class="alignright next">下一頁<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
 </div>
 
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">留言</h2>
+
+  
+  	 <div class="ds-thread" data-thread-key="2015/06/16/pptp/" data-title="pptp" data-url="http://blog.liuyangbin.cn/2015/06/16/pptp/"></div>  
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2015-06-16 
+	</div>
+	
+
+	<!-- categories -->
+    
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/619/">619<span>1</span></a></li>
+    </ul>
+	</div>
 		
-			
-<div class="widget">
-	<h4>鏈接</h4>
-	<ul class="blogroll list-unstyled">
+
+	<!-- toc -->
+	<div class="meta-widget">
 	
-		<li><i class="fa fa-github"></i><a href="https://github.com/wzpan/freemind/" title="Freemind's Github repository." target="_blank"]);">Freemind</a></li>
+	</div>
 	
-		<li><i class="fa fa-github"></i><a href="http://www.github.com/itentropy" title="My Github account." target="_blank"]);">My Github</a></li>
+    <hr>
 	
-	</ul>
-</div>
+</div><!-- col-md-3 -->
 
+	
 
-		
-	</div> <!-- sidebar -->
-</div> <!-- col-md-3 -->
-
-
-
+</div><!-- row -->
 
 	</div>
   </div>
