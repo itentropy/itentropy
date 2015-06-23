@@ -5,7 +5,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog.liuyangbin.cn//"/>
-  <updated>2015-06-16T15:55:39.001Z</updated>
+  <updated>2015-06-17T09:28:26.913Z</updated>
   <id>http://blog.liuyangbin.cn//</id>
   
   <author>
@@ -14,6 +14,129 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[server-faq]]></title>
+    <link href="http://blog.liuyangbin.cn/2015/06/17/server-faq/"/>
+    <id>http://blog.liuyangbin.cn/2015/06/17/server-faq/</id>
+    <published>2015-06-17T09:27:14.000Z</published>
+    <updated>2015-06-17T09:28:26.913Z</updated>
+    <content type="html"><![CDATA[<p>检查unlimited</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>检查unlimited</p>
+]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[shell-faq]]></title>
+    <link href="http://blog.liuyangbin.cn/2015/06/17/shell-faq/"/>
+    <id>http://blog.liuyangbin.cn/2015/06/17/shell-faq/</id>
+    <published>2015-06-17T09:26:44.000Z</published>
+    <updated>2015-06-17T09:26:44.517Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[zookeeper-faq]]></title>
+    <link href="http://blog.liuyangbin.cn/2015/06/17/zookeeper-faq/"/>
+    <id>http://blog.liuyangbin.cn/2015/06/17/zookeeper-faq/</id>
+    <published>2015-06-17T09:26:29.000Z</published>
+    <updated>2015-06-17T09:26:29.673Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[kafka-faq]]></title>
+    <link href="http://blog.liuyangbin.cn/2015/06/17/kafka-faq/"/>
+    <id>http://blog.liuyangbin.cn/2015/06/17/kafka-faq/</id>
+    <published>2015-06-17T09:26:18.000Z</published>
+    <updated>2015-06-17T09:26:18.817Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[storm-faq]]></title>
+    <link href="http://blog.liuyangbin.cn/2015/06/17/storm-faq/"/>
+    <id>http://blog.liuyangbin.cn/2015/06/17/storm-faq/</id>
+    <published>2015-06-17T09:26:11.000Z</published>
+    <updated>2015-06-17T09:26:11.753Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[hbase-faq]]></title>
+    <link href="http://blog.liuyangbin.cn/2015/06/17/hbase-faq/"/>
+    <id>http://blog.liuyangbin.cn/2015/06/17/hbase-faq/</id>
+    <published>2015-06-17T09:26:04.000Z</published>
+    <updated>2015-06-17T09:26:04.213Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[hadoop-faq]]></title>
+    <link href="http://blog.liuyangbin.cn/2015/06/17/hadoop-faq/"/>
+    <id>http://blog.liuyangbin.cn/2015/06/17/hadoop-faq/</id>
+    <published>2015-06-17T09:25:56.000Z</published>
+    <updated>2015-06-17T09:25:56.053Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[jps]]></title>
+    <link href="http://blog.liuyangbin.cn/2015/06/17/jps/"/>
+    <id>http://blog.liuyangbin.cn/2015/06/17/jps/</id>
+    <published>2015-06-17T09:02:20.000Z</published>
+    <updated>2015-06-17T09:03:02.813Z</updated>
+    <content type="html"><![CDATA[<p>process information unavailable</p>
+<p>jps -J-Djps.debug=true -J-Djps.printStackTrace=true 可以获得Jps错误详细信息</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>process information unavailable</p>
+<p>jps -J-Djps.debug=true -J-Djps.printStackTrace=true 可以获得Jps错误详细信息</p>
+]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[upgrade-hbase-0.94-0.96]]></title>
+    <link href="http://blog.liuyangbin.cn/2015/06/17/upgrade-hbase-0-94-0-96/"/>
+    <id>http://blog.liuyangbin.cn/2015/06/17/upgrade-hbase-0-94-0-96/</id>
+    <published>2015-06-17T07:21:17.000Z</published>
+    <updated>2015-06-17T07:21:17.397Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[pptp]]></title>
@@ -37,7 +160,7 @@
     <link href="http://blog.liuyangbin.cn/2015/06/15/joke/"/>
     <id>http://blog.liuyangbin.cn/2015/06/15/joke/</id>
     <published>2015-06-15T05:28:55.000Z</published>
-    <updated>2015-06-16T12:19:42.035Z</updated>
+    <updated>2015-06-23T06:14:13.021Z</updated>
     <content type="html"><![CDATA[<p>1.鲁智深散步的时候遇到史进，便上前打招呼:“史，吃了嘛？”史进怒飞一脚鲁智深:“你才吃屎！！”鲁智深站起来拍拍土，一脸疑惑:“史进啊，你怎么了？”史进倒退数十步，助跑着怒吼道:“这可是你让我使劲的啊！！！！” </p>
 <p>2.上课的时候老师让我同桌站起来回答问题，他站起来说：老师。。。我不会。老师：你能不能像个男子汉一样。结果这货来了句：这道题老子不会！ </p>
 <p>3.一女孩问一小明，喜欢什么样的女孩，给你介绍个！小明说:大波浪的长头发的！女孩问就这一个要求啊？小明说，不，这是三个要求！！！！</p>
@@ -50,6 +173,8 @@
 <p>10.办公室的鱼缸里养了几只透明的小虾，领导带着眼镜看半天，问我养的什么。我说：“虾啊！”领导一愣，走了。。。我也楞了，赶紧大声地解释：“虾啊领导！领导虾啊！领导真是虾！！是真虾啊！！！“后来。。。我第二天就没去上班了！</p>
 <p>11.我一朋友！口吃比较严重！此为背景！<br>一天去银行“你……你好，我…我…取……取………取钱！”工作人员问了一句“你卡带了麽？”他一听不乐意了！“你…你…他妈……才卡…卡…卡…卡带了！我只是口…口…口吃！”</p>
 <p>12.我一哥们去相亲、<br>女：我不会做饭、不会拖地、很懒每天要睡到中午十二点、有小脾气……你愿意和我结婚吗？<br>然后我哥们说了一句让我终身难忘的话：你经得住揍吗？</p>
+<p>13.青年跟大师说：“大师，我身边的朋友都说我好黑，我也知道我是有点黑，你说我该怎么办呢？”大师一声不吭的把窗户打开，青年忙说道：“哦我知道你是让我阳光一点看开一点是吗?” 大师说：“哎… 我是想看看你到底在哪！</p>
+<p>14.经过高老庄后，悟空很疑惑的问八戒是怎么被贬下凡间？ 八戒意味深长的望着月亮，长叹一声，那天喝醉了酒，玉帝让我去完成 日常任务 ，我只是理解错了而已。 。 。</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>1.鲁智深散步的时候遇到史进，便上前打招呼:“史，吃了嘛？”史进怒飞一脚鲁智深:“你才吃屎！！”鲁智深站起来拍拍土，一脸疑惑:“史进啊，你怎么了？”史进倒退数十步，助跑着怒吼道:“这可是你让我使劲的啊！！！！” </p>
